@@ -1,91 +1,138 @@
 <<<<<<< HEAD
-# ♻️ EcoClassify Vision – AI Waste Segregation System
+# 🌿 GreenWaste-Vision-AI  
+**AI-Powered Waste Classification & Sustainable Segregation System**
 
-**An AI-powered real-time waste classification system using just a webcam – built as part of our Summer Internship Capstone Project.**
-
----
-
-## 📌 Project Overview
-
-**EcoClassify Vision** addresses the growing challenge of improper waste disposal by providing a smart, affordable, and scalable solution. Using a simple webcam and a deep learning model, the system can identify waste items in **six categories**:
-
-- 🥫 Plastic  
-- 🪙 Metal  
-- 🍌 Organic  
-- 📰 Paper  
-- 🔋 Battery  
-- 🧪 Glass  
-
-The model is trained using image data and deployed with **OpenCV** and **TensorFlow Lite** for real-time classification, all running on **low-cost consumer devices** without special hardware. The project promotes proper recycling, reduces pollution, and supports a cleaner environment.
+GreenWaste-Vision-AI is a Computer Vision based sustainability project that classifies waste into categories such as **plastic, paper, metal, glass, cardboard, and trash** using a deep learning model.  
+The goal is to support **smart waste segregation** and encourage **recycling and responsible waste management**.
 
 ---
 
-## ✨ Wow Factor in the Solution
+## 🎯 Problem Statement
+Waste segregation is a major challenge in cities and communities. Incorrect disposal leads to:
+- low recycling rates  
+- landfill overflow  
+- pollution and environmental damage  
 
-Here’s what makes EcoClassify Vision stand out:
-
-- 📸 **Real-Time Waste Detection** using just a webcam
-- 💰 **Low-Cost and Easily Deployable** for public and private use
-- 🤖 **AI-Powered Segregation** for smarter disposal
-- 🌱 **Supports Green Living** and the **Circular Economy**
-- 🔁 **Eco + Tech Blend** to drive sustainable practices
+This project uses **AI-based image classification** to help users identify the type of waste and dispose of it correctly.
 
 ---
 
-## 👥 End Users
+## 🌍 SDG Alignment (UN Sustainable Development Goals)
+This project contributes to the following SDGs:
 
-Our system is designed to benefit:
+### ✅ Primary SDG: **SDG 11 – Sustainable Cities and Communities**
+- Helps build cleaner cities through proper waste management and awareness.
 
-- 🏠 Households and individuals  
-- 🏫 Schools and colleges  
-- 🏙️ Municipal corporations / local authorities  
-- ♻️ Recycling centers  
-- 🌿 Environmental NGOs and green startups  
-
----
-
-## 🎯 Our Mission
-
-Our mission is to bring **AI-based waste classification** to the masses using accessible, everyday tools like webcams and mobile devices. By enabling better waste sorting at the source, we hope to:
-
-- 🗑️ Reduce landfill overflow  
-- 🔄 Improve recycling efficiency  
-- 🌍 Lower pollution and environmental damage  
-- 💡 Educate and empower communities  
-- 🧩 Support smart city and green initiatives  
+### ✅ Secondary SDG: **SDG 12 – Responsible Consumption and Production**
+- Promotes recycling and reduces landfill waste through better segregation.
 
 ---
 
-## ✅ Conclusion
+## 🚀 Features
+✅ Waste classification using AI (image/webcam based)  
+✅ User-friendly interface (web app)  
+✅ Supports multiple waste categories:  
+- Plastic  
+- Glass  
+- Metal  
+- Paper  
+- Cardboard  
+- Trash  
 
-**EcoClassify Vision** shows that **AI-based waste segregation is not just possible, but practical**. By using **transfer learning** and **TensorFlow Lite**, we built a system that runs efficiently in **real-time** on common devices. It encourages **public participation**, can be **easily scaled in low-resource regions**, and supports **sustainable living**.
-
-This project merges **technology** and **ecology** — making smart waste disposal an everyday reality.
-
----
-
-## 🚀 Project Demonstration
-
-- 🌐 Web Demo: [https://eco-classify-vision-ivory.vercel.app/](https://eco-classify-vision-ivory.vercel.app/)
-- 📺 YouTube: [https://youtu.be/6b8XG1GKYJc](https://youtu.be/6b8XG1GKYJc)
-
----
-
-## 📂 References
-
-- **Dataset**: [Garbage Classification - 6 Classes on Kaggle](https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification)
-- **Informational Resources**:
-  - [Environmental Issues in India – Earth.org](https://earth.org/environmental-issues-in-india/)
-  - [Solving India’s Garbage Problem – CSE India](https://www.cseindia.org/solving-indias-garbage-problem-6399)
+✅ Helps in awareness & sustainable disposal practices
 
 ---
 
-## 🤝 Contributing
-
-Interested in improving this project? Contributions are welcome!  
-Feel free to fork the repo, open issues, or submit pull requests.
+## 🧠 AI & Model Details
+- Model Architecture: **MobileNetV2 Transfer Learning**
+- Input Size: **224 x 224**
+- Output: Waste class prediction
+- Framework: **TensorFlow / Keras**
+- Dataset: Garbage classification dataset (Kaggle)
 
 ---
-=======
-# GreenWaste-Vision-AI
->>>>>>> e69a5bfe20c68288cd891682077daf1b8e2ceba7
+
+## 🛠️ Tech Stack
+- **Python**
+- **TensorFlow / Keras**
+- **OpenCV**
+- **Flask**
+- **NumPy**
+- **Matplotlib**
+- **Scikit-learn**
+
+---
+
+## 📂 Project Structure
+```bash
+GreenWaste-Vision-AI/
+│── app.py
+│── requirements.txt
+│── templates/
+│── static/
+│── Google Colab/
+│── Model/
+│── Garbage classification/   # dataset (optional, not for github upload)
+│── README.md
+│── .gitignore
+
+---
+
+🔐 Responsible AI Considerations (Mandatory)
+
+This project follows Responsible AI guidelines:
+
+✅ Fairness
+
+The model is trained on multiple waste classes to reduce biased predictions.
+
+Continuous improvement is possible by adding more diverse images.
+
+✅ Transparency
+
+The system clearly displays the predicted class (waste category).
+
+Users can understand the output without hidden decision making.
+
+✅ Privacy
+
+No personal user data is collected.
+
+Uploaded images are used only for classification and not stored permanently.
+
+✅ Ethical Use
+
+The model is intended only for sustainable waste management.
+
+It avoids harmful, misleading, or discriminatory use.
+
+🌱 Impact
+
+✅ Improves waste segregation awareness
+✅ Supports recycling & sustainable disposal
+✅ Helps reduce landfill and pollution
+✅ Contributes to clean cities and communities
+
+🔮 Future Enhancements
+
+Add E-waste category and more waste classes
+
+Improve real-time classification accuracy
+
+Deploy online using Render/Heroku
+
+Integrate nearest recycling center suggestion feature
+
+👤 Author
+
+Maharudra Patil + Yash Umdale + Kartik Swami
+AI + Sustainability Virtual Internship Project
+(IBM SkillsBuild & AICTE)
+
+⭐ Acknowledgements
+
+IBM SkillsBuild + AICTE Internship Program
+
+Kaggle Dataset providers
+
+TensorFlow / Keras community
