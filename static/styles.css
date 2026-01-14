@@ -520,3 +520,16 @@ video {
     min-width: 0;
   }
 }
+.logo i {
+  display: inline-block;
+  animation: recycleRotate 6s linear infinite;
+}
+
+@keyframes recycleRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
