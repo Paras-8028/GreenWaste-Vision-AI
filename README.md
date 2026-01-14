@@ -64,7 +64,7 @@ This project contributes to the following SDGs:
 ---
 
 ## 📂 Project Structure
-```bash
+
 GreenWaste-Vision-AI/
 │── app.py
 │── requirements.txt
