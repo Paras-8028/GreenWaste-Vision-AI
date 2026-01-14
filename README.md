@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ♻️ EcoClassify Vision – AI Waste Segregation System
 
 **An AI-powered real-time waste classification system using just a webcam – built as part of our Summer Internship Capstone Project.**
@@ -85,3 +86,6 @@ Interested in improving this project? Contributions are welcome!
 Feel free to fork the repo, open issues, or submit pull requests.
 
 ---
+=======
+# GreenWaste-Vision-AI
+>>>>>>> e69a5bfe20c68288cd891682077daf1b8e2ceba7
